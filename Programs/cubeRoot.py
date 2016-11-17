@@ -2,7 +2,7 @@ import fileinput
 
 # Read a integer
 
-number=int(input('Enter an integer  : ')
+number=int(input('Enter an integer  : '))
 
 anumber=abs(number)
 
@@ -13,6 +13,7 @@ while (ans**3 < anumber):
 
 if number<0 :
 	ans=-(ans)
+
 if (ans**3 == number):
 	print('The cube root of ',number, '  is ' , ans)
 
